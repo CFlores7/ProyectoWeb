@@ -11,7 +11,6 @@ var main = require("./routes/main");
 var aboutUs = require("./routes/aboutUs");
 var login = require("./routes/login");
 var signin = require("./routes/signin");
-var contact = require("./routes/contact");
 
 var usersRouter = require("./routes/users");
 var DocsRouter = require("./routes/doctor");
