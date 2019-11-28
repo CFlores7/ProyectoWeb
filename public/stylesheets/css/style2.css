@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Open+Sans+Condensed:300|Raleway|Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi|Montserrat|Open+Sans|Open+Sans+Condensed:300|Raleway|Source+Sans+Pro&display=swap');
+:root{
+    box-sizing: border-box;
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  
+   
+}
+
+body {
+
+    background-color: #ffdd90;
+    background-image: url("/stylesheets/Imagenes/img13.jpg");
+background-size: 100%;
+  }
+.Formu1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  
+
+}
+.Formu1 .formulario h1{
+  background-color: rgb(7, 4, 58);
+  size: 100%;
+  text-align: center;
+  color: whitesmoke;
+  height: 2em;
+border-radius: 25px 25px 0px 0px;
+font-family: 'Raleway', sans-serif;
+}
+
+.Formu1 .formulario {
+  border-radius: 25px 30px 25px;
+  border: 3px blue dashed;
+}
+  .formulario{
+  line-height : 40px;
+  background-color: rgb(108, 158, 160);
+  align-content: center;
+  width: 30%;
+  height: 25em;
+  margin-top:6em ;
+
+ 
+  }
+  form{
+      text-align: center;
+      align-content: center;
+  }
+  
+  h3{
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-family: 'Raleway', sans-serif;
+  }
+ p{
+     text-align: center;
+     font-family: 'Raleway', sans-serif;
+ }
+  
+  .user {
+   
+    height: 2.5em;
+    width: 25em;
+  }
+  .user input{
+border-radius: 10px;
+  }
+  .usuario {
+   
+    height: 2.5em;
+    width: 20.5em;
+  }
+
+  .ingresar {
+    margin-top: 1em;
+     height: 2.5em;
+     width: 10em;
+     background-color: rgb(75, 119, 119);
+     font-family: 'Alatsi', sans-serif;
+     
+  }

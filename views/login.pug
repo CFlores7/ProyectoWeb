@@ -1,0 +1,31 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='style2.css')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  link(rel='stylesheet' href='/stylesheets/css/style2.css')
+  title Document
+.Formu1
+  .formulario
+    h1 Bienvenido!
+    h3 Por favor ingresa a tu sesion
+    form(action='' target='')
+      p
+        | Username:
+        br
+      .user
+        input.usuario(type='text' name='Username' value='' placeholder='FatimaRenderos')
+        br
+      p
+        | Password
+        br
+      .user
+        input.usuario(type='text' value='' placeholder='***')
+        br
+        br
+      input.ingresar(type='submit' value='Submit')
+    .user
+      p
+        | No tienes cuenta? 
+        a(href='/signin') Registrate
